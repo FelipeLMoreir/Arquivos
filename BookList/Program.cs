@@ -66,7 +66,7 @@ Book? UpdateBook()
     Console.WriteLine("Digite o ISBN do livro que deseja editar");
     int ISBN = int.Parse(Console.ReadLine() ?? "");
     Book bookToUpdate = FindBookByISBN(ISBN); 
-    if (bookToUpdate != null)
+    if (bookToUpdate is not null)
     {
         Console.WriteLine("Digite o novo nome do livro:");
         bookToUpdate.Title = Console.ReadLine();
@@ -88,13 +88,7 @@ void RemoveBookByISBN()
     {
         books.Remove(book);
         Console.WriteLine("Livro removido");
-        StreamReader reader = new StreamReader(fullPath);
-        using (reader)
-        {
-            string content = reader.ReadToEnd();
-            Console.WriteLine(content);
-            reader.Close();
-        }
+        
     }
     else
     {
