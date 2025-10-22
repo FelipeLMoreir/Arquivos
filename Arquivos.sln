@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arquivos", "Arquivos\Arquiv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookList", "BookList\BookList.csproj", "{CA731044-B9DC-46D3-A5C0-FBBEAB0FE994}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjCarros", "ProjCarros\ProjCarros.csproj", "{D070BF92-0D9A-4DEA-967C-244E988125FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{CA731044-B9DC-46D3-A5C0-FBBEAB0FE994}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA731044-B9DC-46D3-A5C0-FBBEAB0FE994}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA731044-B9DC-46D3-A5C0-FBBEAB0FE994}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D070BF92-0D9A-4DEA-967C-244E988125FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D070BF92-0D9A-4DEA-967C-244E988125FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D070BF92-0D9A-4DEA-967C-244E988125FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D070BF92-0D9A-4DEA-967C-244E988125FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -69,9 +69,9 @@ Book? UpdateBook()
     if (bookToUpdate is not null)
     {
         Console.WriteLine("Digite o novo nome do livro:");
-        bookToUpdate.Title = Console.ReadLine();
+        bookToUpdate.Title = Console.ReadLine()!;
         Console.WriteLine("Digite o novo autor do livro:");
-        bookToUpdate.Author = Console.ReadLine();
+        bookToUpdate.Author = Console.ReadLine()!;
         Console.WriteLine("Digite a nova categoria do livro:");
         bookToUpdate.Category = Console.ReadLine();
         return bookToUpdate;
@@ -129,4 +129,4 @@ do
             Console.WriteLine("Opção Inválida");
             break;
     }
-} while (option != 5);
+} while (option == 5);
